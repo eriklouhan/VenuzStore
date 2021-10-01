@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+:root{
+    --cor-preta:#0C0808;
+    --cor-verdinho: #43655a;
+    --cor-branco: #FFFFFF;
+    --fonte:'Ephesis', cursive;
+}
+.frete{
+   background-color: #0C0808;
+   
+}
+.frete-cor{
+    color: #FFFFFF;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.Logo-alt{
+    font-family:var(--fonte);
+    color:var(--cor-preta);
+    
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family:'Gemunu Libre', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+li{
+    margin-left: 43%;
+}
+
+
+
+    
+
+
+
+
+.menu-principal{
+    width: 50%;
+    align-items: center;
+}
+.menu-principal > ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    
+}
+.menu-principal a{
+    text-decoration: none;
+    color:var(--cor-preta);
+    font-weight: bold;
+    
+    
+}
+.menu-principal a:hover,
+.menu-principal a.atual{
+    color: var(--cor-verdinho);
+    border-bottom: .07rem solid var(--cor-verdinho);
+}
+ 
+

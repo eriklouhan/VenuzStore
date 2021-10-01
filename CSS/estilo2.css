@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+:root{
+    --cor-preta:#0C0808;
+    --cor-verdinho: #43655a;
+    --cor-branco: #FFFFFF;
+    --fonte:'Ephesis', cursive;
+}
+.frete1{
+    background-color: var(--cor-preta);
+}
+.frete2{
+    color: var(--cor-branco);
+    font-family:'Gemunu Libre', sans-serif;
+    font-size: 35px;
+    text-align: center;
+
+}
+body{
+   text-align: center;
+   
+   
+}
+
+h1{
+    font-family:var(--fonte);
+    color:var(--cor-preta);
+    font-size: 50px;
+
+}
+
+figure{
+    font-family:'Gemunu Libre', sans-serif;
+    color:var(--cor-preta);
+   
+}
+img{
+    display: inline-block;
+}
+
+p a:hover{
+    color: var(--cor-verdinho);
+    border-bottom: .07rem solid var(--cor-verdinho);
+
+
+}
+
+
+li{
+    margin-left: 43%;
+    font-size: 1.1rem;
+}
+
+.menu-principal{
+    width: 50%;
+    align-items: center;
+    font-family:'Gemunu Libre', sans-serif;
+    font-size: 1.5rem;
+}
+.menu-principal > ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    
+}
+.menu-principal a{
+    text-decoration: none;
+    color:var(--cor-preta);
+    font-weight: bold;
+    
+    
+}
+.menu-principal a:hover,
+.menu-principal a.atual{
+    color: var(--cor-verdinho);
+    border-bottom: .07rem solid var(--cor-verdinho);
+}
+
+.bloco2{
+    display:;
+    justify-content: space-between;
+}

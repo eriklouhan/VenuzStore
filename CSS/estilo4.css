@@ -1,0 +1,12 @@
+
+
+body{
+    background-image:url(../imagens/imagemcom.jpg);
+    background-size: 1535px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(53, 50, 46);
+    text-align: center;
+    margin-top: 300px ;
+}
